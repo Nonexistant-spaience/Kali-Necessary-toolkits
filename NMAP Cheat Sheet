@@ -1,0 +1,6 @@
+#Ping host Up or not
+nmap -sT <obviously target  ip>
+#The -sT flag uses the TCP connect method, completing the full three-way handshake.
+#Use Case: Useful when raw packet crafting (e.g., SYN scans) is unavailable due to privilege restrictions.
+Here's the link:
+https://www.stationx.net/nmap-cheat-sheet/
